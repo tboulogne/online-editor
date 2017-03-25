@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Editor</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="editor-wrapper">
+  <div id="htmlEditor" class="editor">
+    <textarea type="text" id="htmlContent" class="editorContent" placeholder="Enter HTML here..."></textarea>
+  </div>
+  <div id="cssEditor" class="editor">
+    <textarea type="text" id="cssContent" class="editorContent" placeholder="Enter CSS here..."></textarea>
+  </div>
+  <div id="jsEditor" class="editor">
+    <textarea type="text" id="jsContent" class="editorContent" placeholder="Enter JS here..."></textarea>
+  </div>
+  </div>
+  <iframe id="outputBox"></iframe>
+  
+  <!-- Scripts -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
